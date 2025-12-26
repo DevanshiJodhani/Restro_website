@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './components/Home';
+import Header from './Components/Header';
+import Home from './Components/Home';
 import Menu from './Components/Menu';
 import BookTable from './Components/BookTable';
 import ReserveTable from './Components/pages/ReserveTable';
@@ -22,6 +22,3 @@ function App() {
 }
 
 export default App;
-
-
-
